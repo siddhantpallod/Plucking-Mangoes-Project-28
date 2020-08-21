@@ -102,7 +102,8 @@ function mouseReleased(){
 
 function keyPressed(){
 	if (keyCode === 32){
-		Matter.Body.setPosition(stone1.body,{x:235,y:420});
+    Matter.Body.setPosition(stone1.body,{x:235,y:420});
+    launcher1.attach(stone1.body); 
 	}
 }
 

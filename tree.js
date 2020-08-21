@@ -11,7 +11,7 @@ class Tree {
     }
 
     display(){
-        image(this.image,700,20);
+        image(this.image,800,0,500,600);
        // push()
         //translate(pos.x,pos.y);
         //imageMode(CENTER);
